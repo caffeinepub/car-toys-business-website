@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 7,
+  "summary": "A website for a car toys business. The site will showcase and potentially sell car toy products.",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-homepage-with-a-hero-section-featuring-a-compelling-headline-tagline-and-call-to-action-button-e-g-shop-now-for-the-car-toys-business",
+      "title": "Create a homepage with a hero section featuring a compelling headline, tagline, and call-to-action button (e.g., 'Shop Now') for the car toys business.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-product-showcase-section-displaying-car-toy-items-in-a-responsive-grid-each-product-card-must-show-a-product-image-placeholder-product-name-short-description-and-price",
+      "title": "Create a product showcase section displaying car toy items in a responsive grid. Each product card must show a product image placeholder, product name, short description, and price.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-navigation-bar-with-the-business-logo-name-links-to-home-products-about-and-contact-sections-and-a-shopping-cart-icon-placeholder",
+      "title": "Add a navigation bar with the business logo/name, links to Home, Products, About, and Contact sections, and a shopping cart icon placeholder.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-an-about-section-describing-the-car-toys-business-and-a-contact-section-with-a-simple-contact-form-name-email-message-fields",
+      "title": "Add an About section describing the car toys business and a Contact section with a simple contact form (name, email, message fields).",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-bold-energetic-visual-theme-inspired-by-motorsport-and-die-cast-toy-aesthetics-using-a-dark-charcoal-background-with-vivid-red-and-metallic-silver-accents-strong-typography-and-card-based-layouts-enforce-this-theme-consistently-across-all-sections",
+      "title": "Apply a bold, energetic visual theme inspired by motorsport and die-cast toy aesthetics — using a dark charcoal background with vivid red and metallic silver accents, strong typography, and card-based layouts. Enforce this theme consistently across all sections.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-generate-and-display-custom-images-as-static-assets-a-hero-banner-background-with-a-dramatic-race-track-and-colorful-toy-cars-scene-and-a-logo-icon-featuring-a-stylized-toy-car",
+      "title": "Generate and display custom images as static assets: a hero banner background with a dramatic race track and colorful toy cars scene, and a logo icon featuring a stylized toy car.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-website-business-name-displayed-across-all-sections-of-the-site-including-the-navbar-logo-name-hero-section-headline-and-tagline-about-section-brand-copy-footer-brand-info-page-title-in-index-html-and-any-other-place-the-current-business-name-appears-to-a-new-name-chosen-for-the-car-toys-brand",
+      "title": "Update the website/business name displayed across all sections of the site — including the Navbar logo/name, Hero section headline and tagline, About section brand copy, Footer brand info, page title in index.html, and any other place the current business name appears — to a new name chosen for the car toys brand.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-revert-the-website-business-name-back-to-the-original-first-name-that-was-auto-generated-before-any-renaming-occurred-update-all-occurrences-across-the-site-navbar-logo-name-hero-section-headline-and-tagline-about-section-brand-copy-footer-brand-info-and-the-page-title-in-index-html",
+      "title": "Revert the website/business name back to the original first name that was auto-generated before any renaming occurred. Update all occurrences across the site: Navbar logo/name, Hero section headline and tagline, About section brand copy, Footer brand info, and the page title in index.html.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Car toys business website with product showcase",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Store and retrieve sample car toy product data (name, description, price, category) in the backend so the frontend can query and display them.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Rename/rewrite the website name/business name.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Revert the website/business name back to the original first name that was generated.",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Car Toys Business Website",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

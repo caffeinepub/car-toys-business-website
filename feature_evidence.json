@@ -1,0 +1,27 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-revert-the-website-business-name-back-to-the-original-first-name-that-was-auto-generated-before-any-renaming-occurred-update-all-occurrences-across-the-site-navbar-logo-name-hero-section-headline-and-tagline-about-section-brand-copy-footer-brand-info-and-the-page-title-in-index-html",
+      "featureTitle": "Revert the website/business name back to the original first name that was auto-generated before any renaming occurred. Update all occurrences across the site: Navbar logo/name, Hero section headline and tagline, About section brand copy, Footer brand info, and the page title in index.html.",
+      "files": [
+        "frontend/index.html",
+        "frontend/src/components/AboutSection.tsx",
+        "frontend/src/components/Footer.tsx",
+        "frontend/src/components/HeroSection.tsx",
+        "frontend/src/components/Navbar.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-9"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

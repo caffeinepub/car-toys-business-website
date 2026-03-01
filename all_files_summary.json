@@ -1,0 +1,22 @@
+{
+  "backend/main.mo": "Motoko actor defining a Toy type and an in-memory Map store with three public functions: addToy, getToy, and getAllToys.",
+  "feature_evidence.json": "Feature evidence report documenting a single feature that reverts the website business name to 'SpeedCast Toys' across navbar, hero, about, footer, and index.html.",
+  "frontend-file-summaries.txt": "JSON file containing one-line summaries of each frontend source file, describing their purpose and key design details.",
+  "frontend/index.css": "Global Tailwind CSS base with OKLCH CSS custom properties for light and dark themes covering background, foreground, card, sidebar, and chart color tokens.",
+  "frontend/index.html": "Minimal HTML entry point that sets the page title to 'SpeedCast Toys — Premium Die-Cast Car Collection' and mounts the React app via main.tsx.",
+  "frontend/src/App.tsx": "Root React component that seeds the backend with 8 sample car toy products on first load and composes the full page layout from Navbar, Hero, ProductGrid, About, Contact, and Footer.",
+  "frontend/src/components/AboutSection.tsx": "Two-column About section featuring brand story copy for SpeedCast Toys, business stats, and four feature cards with icons for quality, collector grade, delivery, and community.",
+  "frontend/src/components/ContactSection.tsx": "Contact section with business info cards (location, email, phone) and a validated contact form with name, email, and message fields, including loading and success states.",
+  "frontend/src/components/Footer.tsx": "Full-page footer displaying the SpeedCast Toys brand logo and name, tagline, social media icon links, three navigation link columns, and a copyright bottom bar.",
+  "frontend/src/components/HeroSection.tsx": "Full-screen hero section for SpeedCast Toys with a background image, overlay gradients, headline, stats, and CTA buttons that smooth-scroll to the products and about sections.",
+  "frontend/src/components/Navbar.tsx": "Fixed top navigation bar with smooth-scroll links, a shopping cart icon, and a responsive mobile menu that toggles on scroll and screen size.",
+  "frontend/src/components/ProductCard.tsx": "Displays a single toy product card with a category-colored gradient image area, name, description, price, and an 'Add to cart' button.",
+  "frontend/src/components/ProductGrid.tsx": "Fetches and renders all toys in a responsive grid using ProductCard, with skeleton loading placeholders and error/empty states.",
+  "frontend/src/hooks/useActor.ts": "React hook that creates and caches an ICP backend actor (authenticated or anonymous) via React Query, invalidating dependent queries when the identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides an Internet Identity authentication context and provider, exposing login/logout functions, identity state, and login status via a React context hook.",
+  "frontend/src/hooks/useQueries.ts": "Defines React Query hooks for fetching all toys, fetching a single toy by ID, and adding a new toy via the ICP backend actor.",
+  "frontend/src/index.css": "Global CSS file that imports Barlow/Barlow Condensed fonts, sets up Tailwind directives, and defines CSS custom properties for a dark motorsport-themed design system (charcoal backgrounds, racing-red accents, silver tones) plus utility classes.",
+  "frontend/src/main.tsx": "React app entry point that mounts the app with QueryClientProvider (React Query) and InternetIdentityProvider wrappers around the root App component.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration extending the theme with custom fonts (Barlow), oklch-based color tokens (racing-red, charcoal, silver), border radii, and plugins for typography, container queries, and animations.",
+  "project_state.json": "Project state tracking file (schema v1.0.0, version 7) that records the car toys business website summary, existing implemented features with their requirement IDs, and metadata for build planning."
+}

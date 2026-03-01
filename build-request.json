@@ -1,0 +1,42 @@
+{
+  "kind": "build_request",
+  "title": "Revert business name to original generated name",
+  "projectName": "RevRace Toys",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-9",
+      "text": "Revert the website/business name back to the original first name that was auto-generated before any renaming occurred. Update all occurrences across the site: Navbar logo/name, Hero section headline and tagline, About section brand copy, Footer brand info, and the page title in index.html.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "I want the 1st name i got"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The Navbar displays the original first generated business name.",
+        "The Hero section headline and tagline reference the original first generated business name.",
+        "The About section brand copy uses the original first generated business name.",
+        "The Footer brand info shows the original first generated business name.",
+        "The page <title> in index.html reflects the original first generated business name.",
+        "No trace of any subsequently renamed business name remains anywhere on the site."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not alter the visual theme, layout, or any other content — only the business name should change.",
+    "Do not modify any files listed under frontend.immutablePaths."
+  ],
+  "nonGoals": [
+    "Changing any colors, typography, or design elements.",
+    "Adding or removing any sections or features.",
+    "Modifying backend data or product names."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

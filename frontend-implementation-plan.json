@@ -1,0 +1,46 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Revert business name to original generated name",
+  "requirements": [
+    {
+      "id": "REQ-9",
+      "summary": "Revert the website/business name back to the original first auto-generated name across all frontend occurrences: Navbar logo/name, Hero section headline and tagline, About section brand copy, Footer brand info, and page title in index.html",
+      "acceptanceCriteria": [
+        "The Navbar displays the original first generated business name.",
+        "The Hero section headline and tagline reference the original first generated business name.",
+        "The About section brand copy uses the original first generated business name.",
+        "The Footer brand info shows the original first generated business name.",
+        "The page <title> in index.html reflects the original first generated business name.",
+        "No trace of any subsequently renamed business name remains anywhere on the site."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Update the page <title> element to reflect the original first generated business name. Currently shows 'RevRace Toys — Premium Die-Cast Car Collection'. Replace 'RevRace Toys' with the original name identified from project history."
+        },
+        {
+          "path": "frontend/src/components/Navbar.tsx",
+          "operation": "modify",
+          "description": "Update the business name display in the logo/brand section of the Navbar. Replace all occurrences of the current business name with the original first generated name. Ensure both the text and any alt text for logo images are updated."
+        },
+        {
+          "path": "frontend/src/components/HeroSection.tsx",
+          "operation": "modify",
+          "description": "Update the Hero section headline and tagline to reference the original first generated business name. Replace all text content that currently mentions the business name with the original name from project history."
+        },
+        {
+          "path": "frontend/src/components/AboutSection.tsx",
+          "operation": "modify",
+          "description": "Update the About section brand story copy and any references to the business name with the original first generated name. Ensure all brand-related text reflects the original name."
+        },
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Update the Footer brand info, logo text, tagline, and copyright notice to show the original first generated business name. Replace all instances of the current business name with the original name identified from project history."
+        }
+      ]
+    }
+  ]
+}
